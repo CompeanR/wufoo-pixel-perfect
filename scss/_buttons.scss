@@ -1,0 +1,29 @@
+%btn {
+  color: #fff;
+  padding: 1em 2.5em;
+  font-size: 1.1875rem;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  border: 1px solid #b1dcea;
+  transition: 0.3s;
+}
+
+.header__buttons-blue {
+  @extend %btn;
+  background-color: #2685c6;
+  border-color: #99caec;
+
+  &:hover {
+    background-color: lighten(#2685c6, 7%);
+  }
+}
+
+.header__buttons-yellow {
+  @extend %btn;
+  background-color: #ffcf55;
+  border-color: #fff5ca;
+
+  &:hover {
+    background-color: lighten(#ffcf55, 7%);
+  }
+}
