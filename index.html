@@ -15,6 +15,20 @@
           <a href="#" class="header__bar-item">MENU</a>
           <img src="svg/svgexport-2.svg" alt="" class="header__bar-image" />
           <a href="#" class="header__bar-item">LOGIN</a>
+
+          <nav class="header__nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="https://www.wufoo.com/features/" class="nav__link">Features</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Templates</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Demo</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+              <li class="nav__item"><a href="#" class="nav__link">Integrations</a></li>
+              <li class="nav__item nav__item--has-subnav"><a href="#" class="nav__link">Resources</a></li>
+            </ul>
+
+            <a class="nav__signup" href="#"><span class="c-btn c-btn--pricing">Sign Up</span></a>
+            <a class="nav__login" href="#">LOGIN</a>
+          </nav>
         </div>
 
         <div class="header__banner">
@@ -46,8 +60,6 @@
               ></iframe>
             </div>
           </div>
-
-          <!-- <a href="" class="header__banner-jump"><i class="fas fa-chevron-down"></i></a> -->
         </div>
       </div>
     </header>
@@ -61,7 +73,13 @@
         </section>
 
         <section class="main__feature">
-          <img class="main__feature-img" src="https://www.wufoo.com/wp-content/uploads/2019/10/wufoo-online-form-builder.png" alt="wufoo online form builder" />
+          <div class="main__feature-img-container">
+            <img
+              class="main__feature-img"
+              src="https://www.wufoo.com/wp-content/uploads/2019/10/wufoo-online-form-builder.png"
+              alt="wufoo online form builder"
+            />
+          </div>
 
           <div class="main__feature-content">
             <h2 class="main__feature-title">Build powerful online forms and customize them to your heart's delight.</h2>
@@ -109,39 +127,39 @@
             </ul>
           </div>
         </section>
-
-        <section class="main__reviews">
-          <div class="main__reviews-header"><p>But don't take our word for it...</p></div>
-
-          <div class="main__reviews-content">
-            <div class="reviews__c-desc">
-              <p>"I love Wufoo's ability to easily share with clients, gather their information, and retain that information for future reference."</p>
-            </div>
-
-            <div class="reviews__c-author">
-              <h2>Jen teske</h2>
-              <p>Real Estate Broker</p>
-              <p>Re/Max Alliance - The Jen & Jean Team</p>
-            </div>
-          </div>
-
-          <div class="reviews__btns">
-            <ul class="reviews__b-list">
-              <li class="reviews__b-item"></li>
-              <li class="reviews__b-item"></li>
-              <li class="reviews__b-item"></li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="main__signup">
-          <h2 class="signup__title">Ready To Get Started?</h2>
-          <div class="signup__desc">Sign up for a FREE account and build up to 5 forms for free</div>
-          <div class="signup__btn-row">
-            <a href="" class="signup__btn-item">Sign Up Now</a>
-          </div>
-        </section>
       </div>
+      <section class="main__reviews">
+        <div class="main__reviews-header"><p>But don't take our word for it...</p></div>
+
+        <div class="main__reviews-content">
+          <div class="reviews__c-desc">
+            <p>"I love Wufoo's ability to easily share with clients, gather their information, and retain that information for future reference."</p>
+          </div>
+
+          <div class="reviews__c-author">
+            <h2>Jen teske</h2>
+            <p>Real Estate Broker</p>
+            <p>Re/Max Alliance - The Jen & Jean Team</p>
+            <img class="reviews__c-author-img" src="https://www.wufoo.com/wp-content/uploads/2017/11/remax.jpg" alt="remax-img" />
+          </div>
+        </div>
+
+        <div class="reviews__btns">
+          <ul class="reviews__b-list">
+            <li class="reviews__b-item"><i class="fas fa-circle"></i></li>
+            <li class="reviews__b-item"><i class="fas fa-circle"></i></li>
+            <li class="reviews__b-item"><i class="fas fa-circle"></i></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main__signup">
+        <h2 class="signup__title">Ready To Get Started?</h2>
+        <div class="signup__desc">Sign up for a FREE account and build up to 5 forms for free</div>
+        <div class="signup__btn-row">
+          <a href="" class="signup__btn-item">Sign Up Now</a>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
@@ -149,7 +167,7 @@
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link">Industry Solutions</a>
+              <a href="#" class="nav__link-title">Industry Solutions</a>
               <ul class="nav__sub-list">
                 <li class="nav__sub-item"><a href="https://www.wufoo.com/education-forms/" class="nav__link">Education</a></li>
                 <li class="nav__sub-item"><a href="https://www.wufoo.com/nonprofit/" class="nav__link">Nonprofit</a></li>
@@ -157,7 +175,7 @@
               </ul>
             </li>
             <li class="nav__item">
-              <a href="/guides/" class="nav__link">Helpful Guides</a>
+              <a href="/guides/" class="nav__link-title">Helpful Guides</a>
               <ul class="nav__sub-list">
                 <li class="nav__sub-item"><a href="https://www.wufoo.com/guides/3-things-to-avoid-on-online-forms/" class="nav__link">3 Form No-nos</a></li>
                 <li class="nav__sub-item">
@@ -184,7 +202,7 @@
               </ul>
             </li>
             <li class="nav__item">
-              <a href="https://www.wufoo.com/payments/" class="nav__link">Accept Payments</a>
+              <a href="https://www.wufoo.com/payments/" class="nav__link-title">Accept Payments</a>
               <ul class="nav__sub-list">
                 <li class="nav__sub-item"><a href="https://www.wufoo.com/payments/stripe/" class="nav__link">Stripe</a></li>
                 <li class="nav__sub-item"><a href="https://www.wufoo.com/payments/square/" class="nav__link">Square</a></li>
@@ -198,7 +216,7 @@
               </ul>
             </li>
             <li class="nav__item">
-              <a href="/integrations/" class="nav__link">Featured Integrations</a>
+              <a href="/integrations/" class="nav__link-title">Featured Integrations</a>
               <ul class="nav__sub-list">
                 <li class="nav__sub-item"><a href="https://www.wufoo.com/integrations/asana/" class="nav__link">Asana</a></li>
                 <li class="nav__sub-item"><a href="https://www.wufoo.com/integrations/mailchimp/" class="nav__link">Mailchimp</a></li>
@@ -209,7 +227,7 @@
               </ul>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Insightful Links</a>
+              <a href="#" class="nav__link-title">Insightful Links</a>
               <ul class="nav__sub-list">
                 <li class="nav__sub-item"><a href="https://www.wufoo.com/web-forms/" class="nav__link">Web Forms</a></li>
                 <li class="nav__sub-item"><a href="https://www.wufoo.com/mobile-forms/" class="nav__link">Mobile Forms</a></li>
@@ -223,7 +241,7 @@
         <nav class="fo-nav">
           <ul class="fo-nav__list">
             <li class="fo-nav__item">
-              <a href="#" class="fo-nav__link">Community:</a>
+              <a href="#" class="fo-nav__title">Community:</a>
               <ul class="fo-nav__sublist">
                 <li class="fo-nav__sub-item"><a href="https://twitter.com/Wufoo" class="fo-nav__link">Twitter</a></li>
                 <li class="fo-nav__sub-item"><a href="https://www.facebook.com/formbuilder" class="fo-nav__link">Facebook</a></li>
@@ -234,7 +252,7 @@
               </ul>
             </li>
             <li class="fo-nav__item">
-              <a href="#" class="fo-nav__link">About Us:</a>
+              <a href="#" class="fo-nav__title">About Us:</a>
               <ul class="fo-nav__sublist">
                 <li class="fo-nav__sub-item"><a href="https://status.wufoo.com/" class="fo-nav__link">Status</a></li>
                 <li class="fo-nav__sub-item"><a href="/sitemap/" class="fo-nav__link">Sitemap</a></li>
@@ -255,7 +273,7 @@
               </ul>
             </li>
             <li class="fo-nav__item">
-              <a href="#" class="fo-nav__link">Language:</a>
+              <a href="#" class="fo-nav__title">Language:</a>
               <ul class="fo-nav__sublist">
                 <li class="fo-nav__sub-item"><a href="http://www.wufoo.com/?lChange=.com" class="fo-nav__link">English</a></li>
               </ul>
@@ -264,28 +282,30 @@
         </nav>
 
         <div class="footer__sub">
-          <p class="footer__copyright">Copyright © 2006 - 2021 • <a href="https://www.surveymonkey.com/">SurveyMonkey</a></p>
+          <div class="footer__sub-container">
+            <p class="footer__copyright">Copyright © 2006 - 2021 • <a href="https://www.surveymonkey.com/">SurveyMonkey</a></p>
 
-          <div class="footer__logos">
-            <a
-              target="_blank"
-              id="bbblink"
-              href="https://www.bbb.org/greater-san-francisco/business-reviews/market-survey/surveymonkey-in-san-mateo-ca-876628"
-              title="SurveyMonkey is a BBB Accredited Market Survey Company in San Mateo, CA"
-              ><img
-                id="bbblinkimg"
-                src="https://www.wufoo.com/wp-content/themes/wufoo-site/img/bb-cert.png"
-                alt="SurveyMonkey is a BBB Accredited Market Survey Company in San Mateo, CA"
-            /></a>
-            <a target="_blank" title="View TrustedSite Certification" href="https://www.trustedsite.com/verify?host=wufoo.com">
-              <img
-                border="0"
-                height="50"
-                width="120"
-                src="https://cdn.ywxi.net/meter/wufoo.com/202.svg"
-                oncontextmenu="alert('Copying Prohibited by Law - TrustedSite is a Trademark of TrustedSite, LLC'); return false;"
-              />
-            </a>
+            <div class="footer__logos">
+              <a
+                target="_blank"
+                id="bbblink"
+                href="https://www.bbb.org/greater-san-francisco/business-reviews/market-survey/surveymonkey-in-san-mateo-ca-876628"
+                title="SurveyMonkey is a BBB Accredited Market Survey Company in San Mateo, CA"
+                ><img
+                  id="bbblinkimg"
+                  src="https://www.wufoo.com/wp-content/themes/wufoo-site/img/bb-cert.png"
+                  alt="SurveyMonkey is a BBB Accredited Market Survey Company in San Mateo, CA"
+              /></a>
+              <a target="_blank" title="View TrustedSite Certification" href="https://www.trustedsite.com/verify?host=wufoo.com">
+                <img
+                  border="0"
+                  height="50"
+                  width="120"
+                  src="https://cdn.ywxi.net/meter/wufoo.com/202.svg"
+                  oncontextmenu="alert('Copying Prohibited by Law - TrustedSite is a Trademark of TrustedSite, LLC'); return false;"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>

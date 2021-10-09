@@ -8,6 +8,13 @@
   transition: 0.3s;
 }
 
+%btn-signup {
+  line-height: 2.27;
+  padding: 0 0.75rem;
+
+  position: relative;
+}
+
 .header__buttons-blue {
   @extend %btn;
   background-color: #2685c6;
@@ -26,4 +33,11 @@
   &:hover {
     background-color: lighten(#ffcf55, 7%);
   }
+}
+
+.nav__signup {
+  @extend %btn-signup;
+  background-color: #2685c6;
+  color: #fff;
+  text-transform: uppercase;
 }
